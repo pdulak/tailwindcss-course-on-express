@@ -16,9 +16,13 @@ This project was created using `bun init` in bun v1.0.7. [Bun](https://bun.sh) i
 
 ## others
 
+Run tailwindcss during development:
+
 ```
 bunx tailwindcss -i ./public/css/input.css -o ./public/css/output.css --watch
 ```
+
+Run server with hot reloading during development:
 
 ```
 bun --hot index.ts
